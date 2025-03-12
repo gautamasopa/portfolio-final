@@ -8,7 +8,7 @@ const contentMap: Record<string, string> = {
   About: "I have a degree in computer science and a treasure trove of knowledge gathered from books and an obscene number of YouTube tutorials. My strong theoretical foundation, combined with an interdisciplinary approach, makes me an exceptionally effective problem-solver.",
   Stack: "My expertise lies in building full-stack web applications with Next.js, Tailwind, and Node.js. I'm proficient in designing high-performance persistence layers with Redis and PostgreSQL and deploying scalable applications using Docker and Kubernetes.",
   Work: "I'm currently open to new opportunities in full-stack development. My portfolio includes a high-performance e-commerce platform, a cloud storage service akin to Google Drive, and a collaborative code editor powered by CRDTs.",
-  Writing: "Reading and writing have been lifelong obsessions. I'm currently working on my first fantasy novel, *Tales of a Banished Prince*, and have recently started sharing my learnings on a blog.",
+  Writing: "Reading and writing have been lifelong obsessions. I'm currently working on my first fantasy novel, Tales of a Banished Prince, and have recently started sharing my learnings on a blog.",
 };
 
 export default function MainContent({ section }: { section: string }) {
