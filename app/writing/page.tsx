@@ -7,7 +7,7 @@ export default function Writing() {
         Writing
       </h1>
       <p className="text-lg text-gray-400 mb-10 text-center max-w-md">
-        I must've hit a writer's block. Please check back later for new posts—my thoughts are brewing.
+        I must&aposve hit a writer&aposs block. Please check back later for new posts—my thoughts are brewing.
       </p>
       
       <Link href="/" className="text-blue-400 hover:underline text-sm">
