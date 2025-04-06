@@ -14,7 +14,7 @@ export default function Background() {
   const [symbols, setSymbols] = useState<SymbolData[]>([]);
 
   useEffect(() => {
-    if (typeof window === "undefined") return; // Prevents errors on server-side rendering
+    if (typeof window === "undefined") return; 
 
     const matrixSymbols = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     
@@ -24,7 +24,7 @@ export default function Background() {
         char: matrixSymbols[Math.floor(Math.random() * matrixSymbols.length)],
         x: Math.random() * window.innerWidth,
         y: Math.random() * window.innerHeight,
-        duration: Math.random() * 5 + 5, // Random fall speed
+        duration: Math.random() * 5 + 5, 
       }));
     };
 

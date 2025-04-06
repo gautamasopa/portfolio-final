@@ -7,7 +7,7 @@ export default function Sidebar({ setActiveSection, activeSection }: SidebarProp
   const links = ["Home", "About", "Stack", "Work", "Writing"];
 
   return (
-    <nav className="flex flex-col gap-4 w-40"> {/* Fixed width for better layout */}
+    <nav className="flex flex-col gap-4 w-40"> 
       {links.map((link) => (
         <button
           key={link}
@@ -15,7 +15,7 @@ export default function Sidebar({ setActiveSection, activeSection }: SidebarProp
             ${activeSection === link ? "text-cyan-400" : "text-gray-400"} 
             hover:text-white group`}
           onClick={() => setActiveSection(link)}
-          aria-current={activeSection === link ? "page" : undefined} // Accessibility fix
+          aria-current={activeSection === link ? "page" : undefined} 
         >
           {link}
           <span

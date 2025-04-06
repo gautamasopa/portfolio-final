@@ -8,14 +8,12 @@ export default function Home() {
 
   return (
     <div className="h-screen w-screen flex justify-center items-center bg-gradient-to-b from-black to-gray-900 text-white p-10">
-      <div className="flex gap-20 max-w-4xl"> {/* Added max-width to container */}
-        {/* Sidebar */}
-        <div className="flex-shrink-0"> {/* Prevents sidebar from shrinking */}
+      <div className="flex gap-20 max-w-4xl">
+        <div className="flex-shrink-0"> 
           <Sidebar setActiveSection={setSection} activeSection={section} />
         </div>
 
-        {/* Main Content */}
-        <div className="flex-shrink-0"> {/* Prevents content from shrinking */}
+        <div className="flex-shrink-0"> 
           <Content section={section} />
         </div>
       </div>

@@ -10,8 +10,8 @@ const TypingText: React.FC<TypingTextProps> = ({ text }) => {
     visible: {
       opacity: 1,
       transition: {
-        delay: 0.05, // Reduced for better responsiveness
-        staggerChildren: 0.008, // Controls typing speed
+        delay: 0.05, 
+        staggerChildren: 0.008, 
       },
     },
   };
@@ -32,7 +32,7 @@ const TypingText: React.FC<TypingTextProps> = ({ text }) => {
               {char}
             </motion.span>
           ))
-        : null} {/* Prevents rendering issues when text is empty */}
+        : null} 
     </motion.div>
   );
 };
